@@ -87,7 +87,14 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-### 6. Run the Streamlit application
+## 6 Environment Variable
+
+This project requires a Groq API key.
+Before running the application, set the environment variable:
+
+GROQ_API_KEY="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"
+
+### 7. Run the Streamlit application
 
 streamlit run app.py
 
